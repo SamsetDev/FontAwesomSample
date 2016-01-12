@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.samset.blog.fontawsom_sample.utils.TextViewAwesom
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_arrow_down"
+
+        />
+
+
+    <com.samset.blog.fontawsom_sample.utils.TextViewAwesom
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_bank"
+
+        />
+
+    <com.samset.blog.fontawsom_sample.utils.TextViewAwesom
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:id="@+id/icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_birthday_cake"
+        android:shadowColor="#22000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="1"
+        android:textSize="50dp"
+        android:textColor="#FF0000"
+
+        />
+
+
+    <com.samset.blog.fontawsom_sample.utils.ButtonAwesom
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fa_sign_in"
+        android:textSize="26dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_centerInParent="true"
+        android:textColor="#FFFFFF"
+        android:background="#990000"
+
+        />
+
+</LinearLayout>
